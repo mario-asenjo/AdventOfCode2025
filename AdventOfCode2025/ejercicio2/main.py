@@ -16,6 +16,9 @@ def main() -> None:
     print(count)
 '''
 
+'''
+SEGUNDA ESTRELLA
+'''
 def main() -> None:
     count = 0
     with open("input", 'r') as file:
