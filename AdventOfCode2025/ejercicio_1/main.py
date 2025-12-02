@@ -15,6 +15,7 @@ def main() -> None:
             total_zeros += pasos_a_mover // 100
             # Calculamos movimientos restantes por hacer tras calcular vueltas completas.
             movimientos_restantes = pasos_a_mover % 100
+            # Por cada movimiento restante, calculamos la posición y comprobamos si es 0
             for i in range(movimientos_restantes):
                 posicion = (posicion + flag) % 100
                 if posicion == 0:
